@@ -51,5 +51,6 @@ $("#left").addEventListener("click", () => {
   if (index === 0) index = gst_arr.length - 1;
   else index--;
 
-  
+  $("#gst_percent").innerText = gst_arr[index];
+  findGST();
 });
