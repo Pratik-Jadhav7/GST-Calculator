@@ -1,5 +1,4 @@
-let mode;
-const gst_arr = [3, 5, 12, 18, 28];
+
 
 const $ = el => document.querySelector(el);
 const _ = n => (n % 1 === 0 ? n : n.toFixed(2));
